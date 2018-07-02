@@ -1,0 +1,20 @@
+# http://docs.travis-ci.com/user/languages/go/
+language: go
+
+go: 1.10
+
+os:
+- linux
+
+script: script/build
+
+notifications:
+  email: false
+
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: myprog
+  skip_cleanup: true
+  on:
+    tags: true
