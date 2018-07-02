@@ -10,7 +10,7 @@ deploy:
   api_key:
     secure: raVZOg8mss/PTvCOiNaW6SWB5piBddKKTm4qyl8bGIEsohVOdrwiMZevS/1r6RVvCXb3ycOaMtK/GMcs8IMEMXXLdeKyGG/snpzSHHK6uFoCk6MH82/UCwqmE/PewiEHPiWxE5eFVlc9/8hmtyNYwwemP/C1HIYxxCQzrfvJ7LrhZKlc1dRPD5t2hqT51M2Onk9MziPTCD4H8Yi98J3jaEETfkVhAdtZ32LAPF28B16UbqZkjEI2HkXX2fRVnW50YhrNYhA9swktxTUNqbYjV4YLbcWXVhkGpti8JKSpZFTpvbXFx3uCNYgUMdovfVCNe6DlGlRv2engDq1+T1/NLWm2oqFmN0HEIUM7jo1qArM0+JQrQFRIbQXjoXVWLWmjCyFrpZW5QnEQ/M9ZUrP8lWs+BTGHe6yf0hOPrBjhGBslexnPQTdAHJVima01ciXcNQ6irIzqSRoymhf4UTdkDsOrow0uv79soOJpwIUa1ZRNCINX2zvl9nXB8OJLQxlXwZaz80zJpSvqjTz9COoV/dTCocVA5/T/qgaIKzvRPMOIJcL1IY/KugX2O/UGrqZo8bZ42nq6ZQ8brGtsdvq+Vh/6F6JYMhvd/ubHIs+bqojikAlGvNEVYSoHt+VhhckBKzBngteSaFMvJILBFeQpOtFON3HPi6cqDOydrV2UaVo=
   skip_cleanup: true
-  file: myprog
+  file: build/myprog
   on:
     tags: true
     repo: aaronbbrown/travis-test
